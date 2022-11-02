@@ -3,7 +3,6 @@ module github.com/verrazzano/crossplane-runtime
 go 1.19
 
 require (
-	github.com/crossplane/crossplane-runtime v0.0.0-00010101000000-000000000000
 	github.com/go-logr/logr v1.2.2
 	github.com/google/go-cmp v0.5.8
 	github.com/hashicorp/go-getter v1.4.0
