@@ -1,6 +1,6 @@
-module github.com/crossplane/crossplane-runtime
+module github.com/verrazzano/crossplane-runtime
 
-go 1.17
+go 1.19
 
 require (
 	github.com/go-logr/logr v1.2.0
@@ -10,13 +10,13 @@ require (
 	github.com/imdario/mergo v0.3.12
 	github.com/spf13/afero v1.8.0
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
-	k8s.io/api v0.23.0
-	k8s.io/apiextensions-apiserver v0.23.0
-	k8s.io/apimachinery v0.23.0
-	k8s.io/client-go v0.23.0
-	sigs.k8s.io/controller-runtime v0.11.0
+	k8s.io/api v0.24.2
+	k8s.io/apiextensions-apiserver v0.24.2
+	k8s.io/apimachinery v0.24.2
+	k8s.io/client-go v0.24.2
+	sigs.k8s.io/controller-runtime v0.12.2
 	sigs.k8s.io/controller-tools v0.8.0
-	sigs.k8s.io/yaml v1.3.0
+        sigs.k8s.io/yaml v1.3.0
 )
 
 require (
@@ -122,3 +122,4 @@ require (
 	sigs.k8s.io/json v0.0.0-20211020170558-c049b76a60c6 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.0 // indirect
 )
+replace github.com/crossplane/crossplane-runtime => github.com/verrazzano/crossplane-runtime vz7020.10
