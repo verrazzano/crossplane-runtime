@@ -3,7 +3,7 @@ module github.com/verrazzano/crossplane-runtime
 go 1.19
 
 require (
-	github.com/crossplane/crossplane-runtime v0.15.0
+	github.com/crossplane/crossplane-runtime v0.17.0
 	github.com/go-logr/logr v1.2.0
 	github.com/google/go-cmp v0.5.6
 	github.com/hashicorp/go-getter v1.4.0
@@ -133,4 +133,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 )
 
-replace github.com/crossplane/crossplane-runtime => github.com/verrazzano/crossplane-runtime vz17.0
+replace github.com/crossplane/crossplane-runtime => github.com/verrazzano/crossplane-runtime v0.17.0.1
